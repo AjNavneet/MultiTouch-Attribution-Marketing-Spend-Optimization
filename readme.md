@@ -1,4 +1,4 @@
-# Multi-Touch Attribution Model and Marketing Spend Optimization
+# Multi-Touch Attribution Model and Marketing Budget Optimization
 
 ## Business Objective
 Marketing attribution is a vital aspect of understanding how various marketing channels contribute to overall success. This project delves into multi-channel attribution modeling, aiming to quantify the value of advertising campaigns and improve advertising ROI. The goal is to help stakeholders make informed decisions by isolating the impact of each touchpoint on conversions.
@@ -65,17 +65,6 @@ The dataset is in CSV format and comprises 586,737 rows and 6 columns. The colum
 1. Clone this repository.
 2. Navigate to the `src` folder and run `engine.py` to execute the project.
 3. Install required packages using `pip install -r requirements.txt`.
-
----
-
-## Concepts Explored
-1. Understanding the business problem.
-2. Data import and library usage.
-3. Basic Exploratory Data Analysis (EDA).
-4. Building and evaluating Single Touch attribution models.
-5. Building and evaluating Multi-Touch attribution models.
-6. Building and evaluating Probabilistic attribution models.
-7. Budget optimization engine development.
 
 ---
 
