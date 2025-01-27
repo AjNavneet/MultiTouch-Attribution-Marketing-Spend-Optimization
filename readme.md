@@ -1,16 +1,19 @@
 # Multi-Touch Attribution Model and Marketing Budget Optimization
 
 ## Business Objective
+
 Marketing attribution is essential for understanding the contribution of various marketing channels to overall success. This project focuses on multi-channel attribution modeling to quantify the value of advertising campaigns and enhance advertising ROI. The primary goal is to empower stakeholders to make data-driven decisions by isolating the impact of each touchpoint on conversions.
 
 ---
 
 ## Aim
+
 This project aims to develop and compare various attribution models to identify the marketing channels that drive higher customer conversions and optimize budget allocation for maximum efficiency.
 
 ---
 
 ## Data Description
+
 The dataset used in this project is in CSV format, comprising 586,737 rows and 6 columns. The columns include:
 - **`Cookie`**: Anonymized customer ID.
 - **`Time`**: Date and time of the customer visit.
@@ -22,14 +25,15 @@ The dataset used in this project is in CSV format, comprising 586,737 rows and 6
 ---
 
 ## Tech Stack
-- **Programming Language**: Python
+
+- **Programming Language**: [Python](https://www.python.org/)
 - **Libraries**:
-  - `NumPy` for numerical computations
-  - `Pandas` for data manipulation
-  - `Matplotlib` and `Seaborn` for data visualization
-  - `Itertools` for iteration utilities
-  - `Gekko` for mathematical optimization
-  - `Pandas-Profiling` for generating automated EDA reports
+  - [`NumPy`](https://numpy.org/) for numerical computations.
+  - [`Pandas`](https://pandas.pydata.org/) for data manipulation.
+  - [`Matplotlib`](https://matplotlib.org/) and [`Seaborn`](https://seaborn.pydata.org/) for data visualization.
+  - [`Itertools`](https://docs.python.org/3/library/itertools.html) for iteration utilities.
+  - [`Gekko`](https://www.apmonitor.com/gekko) for mathematical optimization.
+  - [`Pandas-Profiling`](https://pandas-profiling.github.io/pandas-profiling/) for generating automated EDA reports.
 
 ---
 
@@ -90,33 +94,33 @@ The dataset used in this project is in CSV format, comprising 586,737 rows and 6
 
 ## Getting Started
 
-1. **Clone the Repository**:
+### 1. Clone the Repository:
 
-   ```bash
-   git clone <repository_url>
-   cd <repository_folder>
-   ```
+```bash
+git clone <repository_url>
+cd <repository_folder>
+```
 
-2. **Install Dependencies**:
+### 2. Install Dependencies:
 
-   Use the following command to install all required libraries:
+Use the following command to install all required libraries:
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+pip install -r requirements.txt
+```
 
-3. **Run the Project**:
+### 3. Run the Project:
 
-   Navigate to the `src` folder and execute the `engine.py` script:
+Navigate to the `src` folder and execute the `engine.py` script:
 
-   ```bash
-   python src/engine.py
-   ```
+```bash
+python src/engine.py
+```
 
-4. **Explore the Outputs**:
+### 4. Explore the Outputs:
 
-   - Check the `output/` folder for model graphs and reports.
-   - Review detailed EDA insights and model results.
+- Check the `output/` folder for model graphs and reports.
+- Review detailed EDA insights and model results.
 
 ---
 
@@ -138,21 +142,21 @@ Contributions are welcome! To contribute:
 1. Fork the repository.
 2. Create a feature branch:
 
-   ```bash
-   git checkout -b feature-name
-   ```
+```bash
+git checkout -b feature-name
+```
 
 3. Commit your changes:
 
-   ```bash
-   git commit -m "Add feature"
-   ```
+```bash
+git commit -m "Add feature"
+```
 
 4. Push your branch:
 
-   ```bash
-   git push origin feature-name
-   ```
+```bash
+git push origin feature-name
+```
 
 5. Open a pull request.
 
@@ -178,6 +182,7 @@ For any questions or suggestions, please reach out to:
 
 Special thanks to:
 
-- The Python open-source community for excellent tools and libraries.
 - [GEKKO](https://www.apmonitor.com/gekko) for providing optimization capabilities.
+- [Pandas-Profiling](https://pandas-profiling.github.io/pandas-profiling/) for automated EDA insights.
+- The Python open-source community for excellent tools and libraries.
 
