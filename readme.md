@@ -170,7 +170,7 @@ For any questions or suggestions, please reach out to:
 
 - **Name**: Abhinav Navneet
 - **Email**: mailme.AbhinavN@gmail.com
-- **GitHub**: https://github.com/AjNavneet
+- **GitHub**: [AjNavneet](https://github.com/AjNavneet)
 
 ---
 
